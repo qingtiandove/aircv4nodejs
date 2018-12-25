@@ -1,0 +1,33 @@
+{
+  "name": "aircv4nodejs",
+  "version": "0.1.0",
+  "description": "Find object position based on opencv4nodejs for nodejs",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "opencv4nodejs": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.10.0",
+    "mocha": "^5.2.0",
+    "webpack": "^4.27.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "opencv",
+    "position",
+    "png"
+  ],
+  "author": "qingtiandove <qingtiandove@qq.com>",
+  "license": "MIT"
+}
